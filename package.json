@@ -1,0 +1,24 @@
+{
+  "name": "mls_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.34.1",
+    "webdriverio": "^8.34.1"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.34.1",
+    "@wdio/mocha-framework": "^8.33.1",
+    "@wdio/spec-reporter": "^8.32.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
